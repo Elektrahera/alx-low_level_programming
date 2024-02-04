@@ -8,9 +8,9 @@
  * print the new name, without having to compile it again
  * Return nothing
  */
-int main(int argc, char *argv[]);
+int whatsmyname(int argc, char *argv[]);
 {
-  printf("argc = %d\n", argc);
+  printf("whatsmyname = %d\n", argc);
 
   return 0;
 
