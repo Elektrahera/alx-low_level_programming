@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-  cout << "argc: " << argc << endl;
+  printf("argc = %d\n" argc);
 
   return 0;
 }
