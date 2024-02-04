@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * Write a program that prints its name, followed by a new line
@@ -8,9 +9,8 @@
  * Return nothing
  */
 int main(int argc, char *argv[]);
-
 {
-  printf("mynameis\n");
+  printf("argc = %d\n", argc);
 
   return 0;
 
