@@ -8,11 +8,9 @@
  * @argv: name
  * Return nothing
  */
-int main(int argc, char *argv[]);
+int main(int argc, char *argv[])
 {
-
-  printf("argc = %d\n", argc);
+  cout << "argc: " << argc << endl;
 
   return 0;
-
 }
